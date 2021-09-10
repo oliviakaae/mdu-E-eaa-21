@@ -1,5 +1,5 @@
-# Materiale til mdu-E-eaa-21
+#Materiale til mdu-E-eaa-21
 
-##Minnderoverskrift
+##Minunderoverskrift
 
 Første forsøg med GitHub d. 10. september 2021

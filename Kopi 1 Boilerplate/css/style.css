@@ -1,0 +1,133 @@
+/**
+ * fil: css/style.css
+ **/
+/* Variabler: genbruges og gør designvalg enkle */
+:root {
+  /* farver */
+  --blue: #b8e4ff;
+  --white: #ffffff;
+
+  /* navigationsfarven */
+--navfarve: #ffc9d5;
+
+  /* fonte */
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
+
+/* Her bruges en variabel: --blue */
+body {
+  background-color: beige;
+}
+
+/* Layout */
+
+/* Typografi */
+h2 {
+  border-bottom: 2px solid pink;
+  color: var(--white);
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  background-color: var(--navfarve);
+  color: var(--white);
+  padding: 10px;
+}
+
+/*links*/
+a {
+  color: white;
+  text-decoration: none; /* fjerner linje under links */
+}
+
+a:hover {
+  background-color: red; /* tilføjer baggrundsfarve til links, når musen kører henover */
+}
+
+/*nu bliver menuen vandret og uden bullets*/
+nav ul {
+  list-style-type: none; /* fjerner bulletpoints ved listen */
+}
+
+nav ul li {
+  display: inline;  /* gør listen vandret */
+}
+
+/* tekstbredde */
+h2, p{
+  width: 400px;
+}
+
+/* laver mere whitespace */
+p{
+  margin-top: 37px;
+}
+
+/* wrap går rundt om alle elementer i dette eksempel */
+#wrap {
+  width: 655px;
+  margin: auto; /* centrerer alt */
+}
+
+/* Galleriet styles her */
+/*
+figure {
+  height:450px;
+  width:500px;
+  overflow: auto;
+}
+
+figure img {
+  width: 100%;
+}
+
+.galleri figure {
+  float: left;
+}
+*/
+
+img{
+  max-width:50%;
+  float: center;
+  border: 1px solid red;
+}
+
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3, h4, h5, h6{
+  font-family: 'Azeret Mono', monospace;
+  color: red;
+}
+
+h2{
+  font-family: 'Azeret Mono', monospace;
+  color: white;
+}
+
+figcaption{
+  color: red;
+}
+
+div{
+background-image: url('../images/pinkskyer.jpg')
+}
+
+p{
+  color: red;
+}
+
+ul, a {
+  color: red;
+}
+
+footer {
+  color: white;
+}
